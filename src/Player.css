@@ -1,0 +1,67 @@
+div.Player{
+    display:flex;
+    border-radius: 5px;
+    background-color: black;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 5%;
+}
+
+div.Player-avatar{
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.Player-avatar img{
+    border-radius: 5px;
+    width: 70px;
+    height: 70px;
+}
+
+div.Player-details{
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+div.Player-name{
+    font-size: 18px;
+    color: white;
+}
+
+div.Player-spells{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+div.Player-spell img{
+    width: 30px;
+    height: 30px;
+}
+
+@media screen and (max-width: 600px){
+    div.Player{
+        padding: 12px;
+    }
+    div.Player-spell img{
+        width: 20px;
+        height: 20px;
+    }
+    div.Player-name{
+        font-size: 12px;
+    }
+    div.Player-avatar img{
+        width: 40px;
+        height: 40px;
+    }
+}
+    

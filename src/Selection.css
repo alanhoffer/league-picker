@@ -1,0 +1,60 @@
+
+div.champion img{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+div.champion img:hover{
+    cursor: pointer;
+    border: 2px solid #00bfff;
+}
+
+div.champion img:active{
+    cursor: pointer;
+    border: 2px solid #00bfff;
+}
+
+
+
+div.Selection-header{
+    height: 10%;
+}
+div.Selection-header span{
+    font-size: 32px;
+    color: #00bfff;
+}
+
+div.Selection-body{
+    overflow-y: auto;
+    display:flex;
+    height: 80%;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.Selection-body-title{
+    font-size: 32px;
+    color: white;
+}
+
+div.Selection-body-champions{
+    width: 40%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+@media screen and (max-width: 1000px) {
+    div.Selection-body-champions{
+        width: 80%;
+    }
+    div.Selection-body-title{
+        font-size: 24px;
+    }
+    div.Selection-header span{
+        font-size: 24px;
+    }
+
+}
+    

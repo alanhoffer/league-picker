@@ -1,0 +1,99 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+  width: 100%;
+  background-size: cover;
+}
+
+div.App-header{
+  height: 10%;
+}
+
+div.App-header span{
+  font-size: 32px;
+  color: #00bfff;
+}
+
+div.App-body{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+div.App-body-left{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+div.App-body-right{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+div.App-body-left-header{
+  font-size: 32px;
+  color: white;
+}
+
+div.App-body-right-header{
+  font-size: 32px;
+  color: white;
+}
+
+
+div.App-body-left-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+div.App-body-right-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+div.App-button{
+  display: flex;
+  align-items: center;
+  height: 15%;
+}
+
+div.App-button button{
+  padding: 20px;
+  font-size: 18px;
+  color: white;
+  background-color: #00bfff;
+  border: none;
+  border-radius: 5px;
+}
+
+div.App-button button:hover{
+  cursor: pointer;
+  background-color: #42cdfc;
+}
+
+
+@media screen and (max-width: 600px){
+  
+  div.App-body-left-header{
+    font-size: 24px;
+  }  
+  div.App-body-right-header{
+    font-size: 24px;
+  } 
+  
+  div.App-header span{
+    font-size: 24px;
+  }
+}
